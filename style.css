@@ -9,7 +9,8 @@ h1{
 
 body{
   font-family: "Roboto Mono", monospace;
-
+  font-optical-sizing: auto;
+  font size: 3rem;
   font-weight: 100;
   font-style: normal;
 }
