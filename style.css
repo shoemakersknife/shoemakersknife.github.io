@@ -8,10 +8,11 @@ h1{
   font-style: normal;
 }
 
-body{
+p{
   display: none;
-  font-family: "Ubuntu Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
+  font-family: "Roboto Mono", monospace;
+
+  font-weight: 100;
   font-style: normal;
 }
+
