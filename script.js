@@ -6,5 +6,6 @@ window.addEventListener("DOMContentLoaded", () => {
      setTimeout(() => {
     const heading = document.querySelector("p");
     heading.style.display = "block";
+     }, 500);
   }, 500);
 });
