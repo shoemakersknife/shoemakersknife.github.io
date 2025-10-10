@@ -9,6 +9,7 @@ h1{
 }
 
 body{
+  display: none;
   font-family: "Ubuntu Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
