@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
     heading.style.display = "block";
     
      setTimeout(() => {
-    const heading = document.querySelector("p");
+    const paragraph = document.querySelector("p");
     paragraph.style.display = "block";
      }, 500);
   }, 500);
