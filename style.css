@@ -9,14 +9,12 @@
 }
 
 h1{
-  text-indent: 0.5em;
   font-family: "Roboto Mono", monospace;
   font-weight: 100;
   font-style: normal;
 }
 
 p{
-  text-indent: 1em;
   font-family: "Ubuntu Mono", monospace;
   color: gray;
   font-weight: 100;
