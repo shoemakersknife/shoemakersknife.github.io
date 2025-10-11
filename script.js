@@ -13,3 +13,5 @@ window.addEventListener("DOMContentLoaded", () => {
     }, 500);
   }, 500);
 });
+
+console.log(document.querySelectorAll("p"));
