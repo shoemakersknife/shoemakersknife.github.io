@@ -16,8 +16,8 @@ h1{
 }
 
 p{
-  font-family: "Ubuntu Mono", monospace;
   text-indent: 1em;
+  font-family: "Ubuntu Mono", monospace;
   color: gray;
   font-weight: 100;
   font-style: normal;
