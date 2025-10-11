@@ -5,9 +5,11 @@ window.addEventListener("DOMContentLoaded", () => {
     heading.classList.add("visible");
 
     setTimeout(() => {
-      const paragraph = document.querySelector("p");
-      paragraph.classList.remove("hidden");
-      paragraph.classList.add("visible");
+      const paragraphs = document.querySelectorAll("p");
+      paragraphs[0].classList.remove("hidden");
+      paragraphs[0].classList.add("visible");
+      paragraphs[1].classList.remove("hidden");
+      paragraphs[1].classList.add("visible");
     }, 500);
   }, 500);
 });
