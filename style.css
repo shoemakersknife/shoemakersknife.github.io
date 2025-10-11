@@ -16,12 +16,12 @@ h1{
 
 p{
   font-family: "Ubuntu Mono", monospace;
-  color: gray;
   font-weight: 100;
   font-style: normal;
 }
 
 body {
+  background-color: pink;
   font-family: "Ubuntu Mono", monospace;
   font-optical-sizing: auto;
   color: gray;
