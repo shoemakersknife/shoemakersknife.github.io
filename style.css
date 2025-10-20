@@ -23,19 +23,14 @@ p{
 }
 
 body {
-  justify-content: space-between;
   background-color: black;
   font-family: "Ubuntu Mono", monospace;
   color: white;
-  margin: 0;          
-  height: 100vh;      
+  margin: 0; 
 }
 
 .left-links, .right-links {
   width: 45%;
-  margin: 0;          /* Remove extra margin */
-  padding-left: 0.5em;  /* small left indent on left links */
-  padding-right: 0.5em; /* small right indent on right links */
 }
 
 /* Optional: style the links */
