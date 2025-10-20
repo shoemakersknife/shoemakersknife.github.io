@@ -23,16 +23,20 @@ p{
 }
 
 body {
+  display: flex;
+  justify-content: space-between;
   background-color: black;
   font-family: "Ubuntu Mono", monospace;
-  font-optical-sizing: auto;
   color: white;
-  font-weight: 400;
-  font-style: normal;
+  margin: 0;          /* Remove default body margin */
+  height: 100vh;      /* Optional: full viewport height */
 }
 
 .left-links, .right-links {
   width: 45%;
+  margin: 0;          /* Remove extra margin */
+  padding-left: 0.5em;  /* small left indent on left links */
+  padding-right: 0.5em; /* small right indent on right links */
 }
 
 /* Optional: style the links */
