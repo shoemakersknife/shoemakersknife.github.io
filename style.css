@@ -23,13 +23,12 @@ p{
 }
 
 body {
-  display: flex;
   justify-content: space-between;
   background-color: black;
   font-family: "Ubuntu Mono", monospace;
   color: white;
-  margin: 0;          /* Remove default body margin */
-  height: 100vh;      /* Optional: full viewport height */
+  margin: 0;          
+  height: 100vh;      
 }
 
 .left-links, .right-links {
