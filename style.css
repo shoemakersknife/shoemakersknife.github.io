@@ -24,6 +24,8 @@ p{
 
 body {
   background-color: black;
+  justify-content: space-between;
+  padding: 20px;
   font-family: "Ubuntu Mono", monospace;
   font-optical-sizing: auto;
   color: white;
