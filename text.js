@@ -37,7 +37,7 @@ function initSpinningText() {
     scene.add(textMesh);
 
     textMesh.position.x = -4;  
-    textMesh.position.y = -2;
+    textMesh.position.y = 0;
     textMesh.position.z = 0;
     camera.position.z = 5;
 
