@@ -7,7 +7,7 @@ function initSpinningText() {
   document.body.appendChild(renderer.domElement);
 
   const light = new THREE.PointLight(0xffffff, 1);
-  light.position.set(5, 5, 5);
+  light.position.set(0, 0, 0);
   scene.add(light);
 
   const ambient = new THREE.AmbientLight(0x404040);
@@ -17,7 +17,7 @@ function initSpinningText() {
   loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
     const geometry = new THREE.TextGeometry('welcome', {
       font: font,
-      size: 0.5,
+      size: 0.4,
       height: 0.3,
       curveSegments: 12,
       bevelEnabled: true,
