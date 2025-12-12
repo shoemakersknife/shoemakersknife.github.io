@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const nameText = "who is michael kim?";
+const nameText = "hey! i'm michael kim";
 const roles = ["engineer", "artist", "developer", "producer", "designer", "musician", "hacker", "creator"];
 let currentRoleIndex = 0;
 
@@ -141,3 +141,4 @@ window.addEventListener('resize', () => {
     roleParticles = createRoleParticles(roles[currentRoleIndex]);
   }
 });
+
