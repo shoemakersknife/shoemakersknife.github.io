@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000000; 
+  font-family: 'Arial', sans-serif;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 50px;       
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;          
+  z-index: 10;       
+}
+
+.button-container a {
+  text-decoration: none;
+  padding: 12px 24px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px); 
+}
+
+.button-container a:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
