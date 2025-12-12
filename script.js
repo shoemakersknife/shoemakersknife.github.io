@@ -5,7 +5,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const nameText = "who is michael kim?";
-const roles = ["engineer", "artist", "developer", "designer", "musician", "hacker", "creator"];
+const roles = ["engineer", "artist", "developer", "producer", "designer", "musician", "hacker", "creator"];
 let currentRoleIndex = 0;
 
 let nameParticles = [];
